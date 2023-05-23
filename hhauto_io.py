@@ -26,9 +26,7 @@ async def main()
     req.headers = {"Host": "hh.ru", "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15", "Cookie": f"""{cookies}"""}
 
     """Здесь нам нужно вставить хеш резюме. Оно находиться в разделе https://hh.ru/applicant/resumes . Дальше ты должен перейти в одно из своих резюме и скопировать хеш после ссылки . Как пример https://hh.ru/resume/8376c225ff0b671c9b0039ed1f5850384c3570 . Тут нам нужно забрать 8376c225ff0b671c9b0039ed1f5850384c3570 и вставить в поле ниже"""
-    
-    Здесь нам нужно вставить хеш резюме. Оно находиться в разделе httpshh.ruapplicantresumes . Дальше ты должен перейти в одно из своих резюме и скопировать хеш после ссылки . Как пример httpshh.ruresume8376c225ff0b671c9b0039ed1f5850384c3570 . Тут нам нужно забрать 8376c225ff0b671c9b0039ed1f5850384c3570 и вставить в поле ниже
-    
+   
     resume_hash = "хеш резюме"
 
     if resume_hash == "хеш резюме":
